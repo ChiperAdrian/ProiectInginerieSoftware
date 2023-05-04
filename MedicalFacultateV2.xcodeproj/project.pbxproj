@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ACDF3D12A039EC60024276F /* ConsultatiiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDF3D02A039EC60024276F /* ConsultatiiView.swift */; };
+		3ACDF3D32A039ED40024276F /* AdaugaConsultatieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACDF3D22A039ED40024276F /* AdaugaConsultatieView.swift */; };
+		3ADEC0EB29E5690800C5BBD2 /* MedicalFacultateV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC0EA29E5690800C5BBD2 /* MedicalFacultateV2App.swift */; };
+		3ADEC0ED29E5690800C5BBD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC0EC29E5690800C5BBD2 /* ContentView.swift */; };
+		3ADEC0EF29E5690A00C5BBD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADEC0EE29E5690A00C5BBD2 /* Assets.xcassets */; };
+		3ADEC0F229E5690A00C5BBD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADEC0F129E5690A00C5BBD2 /* Preview Assets.xcassets */; };
+		3ADEC0FC29E5692A00C5BBD2 /* PacientiTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC0FB29E5692A00C5BBD2 /* PacientiTabView.swift */; };
+		3ADEC0FE29E5693600C5BBD2 /* PacientiProgramari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC0FD29E5693600C5BBD2 /* PacientiProgramari.swift */; };
+		3ADEC10029E5693F00C5BBD2 /* PacientiAdaugaProgramare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC0FF29E5693F00C5BBD2 /* PacientiAdaugaProgramare.swift */; };
+		3ADEC10429E5695C00C5BBD2 /* AlegeDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC10329E5695C00C5BBD2 /* AlegeDoctor.swift */; };
+		3ADEC10629E5696300C5BBD2 /* AlegeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC10529E5696300C5BBD2 /* AlegeData.swift */; };
+		3ADEC10829E5697A00C5BBD2 /* DetaliiPacient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC10729E5697A00C5BBD2 /* DetaliiPacient.swift */; };
+		3ADEC10B29E56AE700C5BBD2 /* SpecialitateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC10A29E56AE700C5BBD2 /* SpecialitateModel.swift */; };
+		3ADEC10D29E56AF000C5BBD2 /* DoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC10C29E56AF000C5BBD2 /* DoctorModel.swift */; };
+		3ADEC10F29E56AF800C5BBD2 /* ServiciuMedicalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC10E29E56AF800C5BBD2 /* ServiciuMedicalModel.swift */; };
+		3ADEC11129E56B0000C5BBD2 /* ProgramareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC11029E56B0000C5BBD2 /* ProgramareModel.swift */; };
+		3ADEC11429E56B2D00C5BBD2 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC11329E56B2D00C5BBD2 /* DBManager.swift */; };
+		3ADEC11729E56BC700C5BBD2 /* DoctoriTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC11629E56BC700C5BBD2 /* DoctoriTabView.swift */; };
+		3ADEC11929E56C4800C5BBD2 /* AlegeSpecializare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC11829E56C4800C5BBD2 /* AlegeSpecializare.swift */; };
+		3ADEC11B29E56FC400C5BBD2 /* DoctorProgramari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC11A29E56FC400C5BBD2 /* DoctorProgramari.swift */; };
+		3ADEC11D29E5818A00C5BBD2 /* ConsultatieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC11C29E5818A00C5BBD2 /* ConsultatieModel.swift */; };
+		3ADEC11F29E591DB00C5BBD2 /* PacientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC11E29E591DB00C5BBD2 /* PacientModel.swift */; };
+		3ADEC12129E5964A00C5BBD2 /* ProgramariManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC12029E5964A00C5BBD2 /* ProgramariManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3ACDF3D02A039EC60024276F /* ConsultatiiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultatiiView.swift; sourceTree = "<group>"; };
+		3ACDF3D22A039ED40024276F /* AdaugaConsultatieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaugaConsultatieView.swift; sourceTree = "<group>"; };
+		3ADEC0E729E5690800C5BBD2 /* MedicalFacultateV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalFacultateV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADEC0EA29E5690800C5BBD2 /* MedicalFacultateV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalFacultateV2App.swift; sourceTree = "<group>"; };
+		3ADEC0EC29E5690800C5BBD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3ADEC0EE29E5690A00C5BBD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ADEC0F129E5690A00C5BBD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3ADEC0FB29E5692A00C5BBD2 /* PacientiTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacientiTabView.swift; sourceTree = "<group>"; };
+		3ADEC0FD29E5693600C5BBD2 /* PacientiProgramari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacientiProgramari.swift; sourceTree = "<group>"; };
+		3ADEC0FF29E5693F00C5BBD2 /* PacientiAdaugaProgramare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacientiAdaugaProgramare.swift; sourceTree = "<group>"; };
+		3ADEC10329E5695C00C5BBD2 /* AlegeDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlegeDoctor.swift; sourceTree = "<group>"; };
+		3ADEC10529E5696300C5BBD2 /* AlegeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlegeData.swift; sourceTree = "<group>"; };
+		3ADEC10729E5697A00C5BBD2 /* DetaliiPacient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaliiPacient.swift; sourceTree = "<group>"; };
+		3ADEC10A29E56AE700C5BBD2 /* SpecialitateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialitateModel.swift; sourceTree = "<group>"; };
+		3ADEC10C29E56AF000C5BBD2 /* DoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorModel.swift; sourceTree = "<group>"; };
+		3ADEC10E29E56AF800C5BBD2 /* ServiciuMedicalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiciuMedicalModel.swift; sourceTree = "<group>"; };
+		3ADEC11029E56B0000C5BBD2 /* ProgramareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramareModel.swift; sourceTree = "<group>"; };
+		3ADEC11329E56B2D00C5BBD2 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		3ADEC11629E56BC700C5BBD2 /* DoctoriTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctoriTabView.swift; sourceTree = "<group>"; };
+		3ADEC11829E56C4800C5BBD2 /* AlegeSpecializare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlegeSpecializare.swift; sourceTree = "<group>"; };
+		3ADEC11A29E56FC400C5BBD2 /* DoctorProgramari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProgramari.swift; sourceTree = "<group>"; };
+		3ADEC11C29E5818A00C5BBD2 /* ConsultatieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultatieModel.swift; sourceTree = "<group>"; };
+		3ADEC11E29E591DB00C5BBD2 /* PacientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacientModel.swift; sourceTree = "<group>"; };
+		3ADEC12029E5964A00C5BBD2 /* ProgramariManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramariManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ADEC0E429E5690800C5BBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ADEC0DE29E5690800C5BBD2 = {
+			isa = PBXGroup;
+			children = (
+				3ADEC0E929E5690800C5BBD2 /* MedicalFacultateV2 */,
+				3ADEC0E829E5690800C5BBD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ADEC0E829E5690800C5BBD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ADEC0E729E5690800C5BBD2 /* MedicalFacultateV2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ADEC0E929E5690800C5BBD2 /* MedicalFacultateV2 */ = {
+			isa = PBXGroup;
+			children = (
+				3ADEC11229E56B2700C5BBD2 /* Manageri */,
+				3ADEC10929E56ADB00C5BBD2 /* Modele */,
+				3ADEC0F929E5691200C5BBD2 /* Doctori */,
+				3ADEC0F829E5690E00C5BBD2 /* Pacienti */,
+				3ADEC0EA29E5690800C5BBD2 /* MedicalFacultateV2App.swift */,
+				3ADEC0EC29E5690800C5BBD2 /* ContentView.swift */,
+				3ADEC0EE29E5690A00C5BBD2 /* Assets.xcassets */,
+				3ADEC0F029E5690A00C5BBD2 /* Preview Content */,
+			);
+			path = MedicalFacultateV2;
+			sourceTree = "<group>";
+		};
+		3ADEC0F029E5690A00C5BBD2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3ADEC0F129E5690A00C5BBD2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3ADEC0F829E5690E00C5BBD2 /* Pacienti */ = {
+			isa = PBXGroup;
+			children = (
+				3ADEC0FA29E5691F00C5BBD2 /* Views */,
+			);
+			path = Pacienti;
+			sourceTree = "<group>";
+		};
+		3ADEC0F929E5691200C5BBD2 /* Doctori */ = {
+			isa = PBXGroup;
+			children = (
+				3ADEC11529E56BBE00C5BBD2 /* Views */,
+			);
+			path = Doctori;
+			sourceTree = "<group>";
+		};
+		3ADEC0FA29E5691F00C5BBD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3ADEC0FB29E5692A00C5BBD2 /* PacientiTabView.swift */,
+				3ADEC0FD29E5693600C5BBD2 /* PacientiProgramari.swift */,
+				3ADEC0FF29E5693F00C5BBD2 /* PacientiAdaugaProgramare.swift */,
+				3ADEC10329E5695C00C5BBD2 /* AlegeDoctor.swift */,
+				3ADEC10529E5696300C5BBD2 /* AlegeData.swift */,
+				3ADEC10729E5697A00C5BBD2 /* DetaliiPacient.swift */,
+				3ADEC11829E56C4800C5BBD2 /* AlegeSpecializare.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3ADEC10929E56ADB00C5BBD2 /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+				3ADEC10A29E56AE700C5BBD2 /* SpecialitateModel.swift */,
+				3ADEC10C29E56AF000C5BBD2 /* DoctorModel.swift */,
+				3ADEC10E29E56AF800C5BBD2 /* ServiciuMedicalModel.swift */,
+				3ADEC11029E56B0000C5BBD2 /* ProgramareModel.swift */,
+				3ADEC11C29E5818A00C5BBD2 /* ConsultatieModel.swift */,
+				3ADEC11E29E591DB00C5BBD2 /* PacientModel.swift */,
+			);
+			path = Modele;
+			sourceTree = "<group>";
+		};
+		3ADEC11229E56B2700C5BBD2 /* Manageri */ = {
+			isa = PBXGroup;
+			children = (
+				3ADEC11329E56B2D00C5BBD2 /* DBManager.swift */,
+				3ADEC12029E5964A00C5BBD2 /* ProgramariManager.swift */,
+			);
+			path = Manageri;
+			sourceTree = "<group>";
+		};
+		3ADEC11529E56BBE00C5BBD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3ADEC11629E56BC700C5BBD2 /* DoctoriTabView.swift */,
+				3ADEC11A29E56FC400C5BBD2 /* DoctorProgramari.swift */,
+				3ACDF3D02A039EC60024276F /* ConsultatiiView.swift */,
+				3ACDF3D22A039ED40024276F /* AdaugaConsultatieView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ADEC0E629E5690800C5BBD2 /* MedicalFacultateV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADEC0F529E5690A00C5BBD2 /* Build configuration list for PBXNativeTarget "MedicalFacultateV2" */;
+			buildPhases = (
+				3ADEC0E329E5690800C5BBD2 /* Sources */,
+				3ADEC0E429E5690800C5BBD2 /* Frameworks */,
+				3ADEC0E529E5690800C5BBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicalFacultateV2;
+			productName = MedicalFacultateV2;
+			productReference = 3ADEC0E729E5690800C5BBD2 /* MedicalFacultateV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ADEC0DF29E5690800C5BBD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3ADEC0E629E5690800C5BBD2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3ADEC0E229E5690800C5BBD2 /* Build configuration list for PBXProject "MedicalFacultateV2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ADEC0DE29E5690800C5BBD2;
+			productRefGroup = 3ADEC0E829E5690800C5BBD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ADEC0E629E5690800C5BBD2 /* MedicalFacultateV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ADEC0E529E5690800C5BBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADEC0F229E5690A00C5BBD2 /* Preview Assets.xcassets in Resources */,
+				3ADEC0EF29E5690A00C5BBD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ADEC0E329E5690800C5BBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADEC12129E5964A00C5BBD2 /* ProgramariManager.swift in Sources */,
+				3ADEC11B29E56FC400C5BBD2 /* DoctorProgramari.swift in Sources */,
+				3ADEC11929E56C4800C5BBD2 /* AlegeSpecializare.swift in Sources */,
+				3ADEC10429E5695C00C5BBD2 /* AlegeDoctor.swift in Sources */,
+				3ADEC10B29E56AE700C5BBD2 /* SpecialitateModel.swift in Sources */,
+				3ADEC11129E56B0000C5BBD2 /* ProgramareModel.swift in Sources */,
+				3ADEC10029E5693F00C5BBD2 /* PacientiAdaugaProgramare.swift in Sources */,
+				3ADEC10629E5696300C5BBD2 /* AlegeData.swift in Sources */,
+				3ADEC11729E56BC700C5BBD2 /* DoctoriTabView.swift in Sources */,
+				3ADEC0FE29E5693600C5BBD2 /* PacientiProgramari.swift in Sources */,
+				3ACDF3D12A039EC60024276F /* ConsultatiiView.swift in Sources */,
+				3ADEC11D29E5818A00C5BBD2 /* ConsultatieModel.swift in Sources */,
+				3ADEC0FC29E5692A00C5BBD2 /* PacientiTabView.swift in Sources */,
+				3ADEC0ED29E5690800C5BBD2 /* ContentView.swift in Sources */,
+				3ADEC11F29E591DB00C5BBD2 /* PacientModel.swift in Sources */,
+				3ACDF3D32A039ED40024276F /* AdaugaConsultatieView.swift in Sources */,
+				3ADEC0EB29E5690800C5BBD2 /* MedicalFacultateV2App.swift in Sources */,
+				3ADEC10829E5697A00C5BBD2 /* DetaliiPacient.swift in Sources */,
+				3ADEC10D29E56AF000C5BBD2 /* DoctorModel.swift in Sources */,
+				3ADEC10F29E56AF800C5BBD2 /* ServiciuMedicalModel.swift in Sources */,
+				3ADEC11429E56B2D00C5BBD2 /* DBManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3ADEC0F329E5690A00C5BBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ADEC0F429E5690A00C5BBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ADEC0F629E5690A00C5BBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MedicalFacultateV2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MedicalFacultateV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ADEC0F729E5690A00C5BBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MedicalFacultateV2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MedicalFacultateV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ADEC0E229E5690800C5BBD2 /* Build configuration list for PBXProject "MedicalFacultateV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADEC0F329E5690A00C5BBD2 /* Debug */,
+				3ADEC0F429E5690A00C5BBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADEC0F529E5690A00C5BBD2 /* Build configuration list for PBXNativeTarget "MedicalFacultateV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADEC0F629E5690A00C5BBD2 /* Debug */,
+				3ADEC0F729E5690A00C5BBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ADEC0DF29E5690800C5BBD2 /* Project object */;
+}
